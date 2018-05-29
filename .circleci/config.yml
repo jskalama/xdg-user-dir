@@ -26,9 +26,7 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
-      - install_xdg: sudo apt update; sudo apt install xdg-user-dirs; xdg-user-dirs-update
-
-      - run: npm install
+      - run: sudo apt update; sudo apt install xdg-user-dirs; xdg-user-dirs-update; npm install
 
       - save_cache:
           paths:
