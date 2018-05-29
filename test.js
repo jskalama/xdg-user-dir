@@ -1,4 +1,3 @@
-// const { getUserShellFolders } = require('./index');
 const assert = require('assert');
 const processEnvVars = require('./processEnvVars');
 const getXdgUserDirs = require('./index');
