@@ -1,0 +1,14 @@
+{
+  "name": "xdg-user-dir",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "q-io": "^1.13.5"
+  }
+}
