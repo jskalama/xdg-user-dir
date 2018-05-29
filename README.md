@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/jskalama/xdg-user-dir.svg?style=svg)](https://circleci.com/gh/jskalama/xdg-user-dir)
+
 # xdg-user-dir
 
 Get a list of known shell folders indexed by `XDG_*_DIR` constants.
